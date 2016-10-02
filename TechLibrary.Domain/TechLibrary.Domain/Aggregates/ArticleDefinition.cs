@@ -29,6 +29,10 @@ namespace TechLibrary.Domain.Aggregates
 
         }
 
+        public IEnumerable<ContentIndex> GetArticleIndexes()
+        {
+            return Sections.SelectMany(sec => sec.Indexes);
+        }
 
         public void AddSection(string name, int order)
         {

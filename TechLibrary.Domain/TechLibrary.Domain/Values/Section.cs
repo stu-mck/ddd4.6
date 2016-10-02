@@ -5,7 +5,14 @@ namespace TechLibrary.Domain.Values
 { 
     public class Section
     {
-        public Section(string name, int order)
+
+        public Section()
+        {
+            Indexes = new List<ContentIndex>();
+            Settings = new List<Setting>();
+        }
+
+        public Section(string name, int order):this()
         {
             Name = name;
             Order = order;

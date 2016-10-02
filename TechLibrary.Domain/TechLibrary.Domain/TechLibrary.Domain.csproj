@@ -44,7 +44,7 @@
     <Compile Include="Aggregates\ContentElement.cs" />
     <Compile Include="Aggregates\ContentIndex.cs" />
     <Compile Include="Entitites\Engine.cs" />
-    <Compile Include="Entitites\Manufacturer.cs" />
+    <Compile Include="Aggregates\Manufacturer.cs" />
     <Compile Include="Entitites\ModelFamily.cs" />
     <Compile Include="Entitites\Series.cs" />
     <Compile Include="Entitites\Transmission.cs" />

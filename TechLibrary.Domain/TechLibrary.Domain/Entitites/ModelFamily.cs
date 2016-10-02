@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TechLibrary.Domain.Aggregagtes;
 using TechLibrary.Interfaces;
 
 namespace TechLibrary.Domain.Entitites
@@ -12,6 +13,7 @@ namespace TechLibrary.Domain.Entitites
         public ModelFamily()
         {
             ID = Guid.NewGuid();
+            Series = new List<Entitites.Series>();
         }
 
         public string Name { get; set; }
@@ -22,6 +24,16 @@ namespace TechLibrary.Domain.Entitites
 
         public Manufacturer Manufacturer { get; set; }
 
-
+        public Series AddSeries(string name, int yearFrom, int yearTo)
+        {
+            var series = new Series()
+            {
+                Name = name,
+                YearFrom = yearFrom,
+                YearTo = yearTo
+            };
+            Series.Add(series);
+            return series;
+        }
     }
 }
