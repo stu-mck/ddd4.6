@@ -1,0 +1,7 @@
+C:\Source\Repos\ddd4.6\TechLibrary.Domain\TechLibrary.Domain\obj\Debug\TechLibrary.Domain.csprojResolveAssemblyReference.cache
+C:\Source\Repos\ddd4.6\TechLibrary.Domain\TechLibrary.Domain\bin\Debug\TechLibrary.Domain.dll
+C:\Source\Repos\ddd4.6\TechLibrary.Domain\TechLibrary.Domain\bin\Debug\TechLibrary.Domain.pdb
+C:\Source\Repos\ddd4.6\TechLibrary.Domain\TechLibrary.Domain\bin\Debug\TechLibrary.Interfaces.dll
+C:\Source\Repos\ddd4.6\TechLibrary.Domain\TechLibrary.Domain\bin\Debug\TechLibrary.Interfaces.pdb
+C:\Source\Repos\ddd4.6\TechLibrary.Domain\TechLibrary.Domain\obj\Debug\TechLibrary.Domain.dll
+C:\Source\Repos\ddd4.6\TechLibrary.Domain\TechLibrary.Domain\obj\Debug\TechLibrary.Domain.pdb
