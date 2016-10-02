@@ -55,11 +55,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TechLibrary.Domain\TechLibrary.Domain.csproj">
+    <ProjectReference Include="..\..\src\TechLibrary.Domain\TechLibrary.Domain.csproj">
       <Project>{73cf1a4a-5187-415d-99a8-4203471e8cf3}</Project>
       <Name>TechLibrary.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TechLibrary.Lib\TechLibrary.Interfaces.csproj">
+    <ProjectReference Include="..\..\src\TechLibrary.Interfaces\TechLibrary.Interfaces.csproj">
       <Project>{b0e9fa9d-582d-402f-9ad9-fdeeb2355c4f}</Project>
       <Name>TechLibrary.Interfaces</Name>
     </ProjectReference>

@@ -60,12 +60,11 @@
     <Compile Include="Values\Setting.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TechLibrary.Lib\TechLibrary.Interfaces.csproj">
+    <ProjectReference Include="..\TechLibrary.Interfaces\TechLibrary.Interfaces.csproj">
       <Project>{b0e9fa9d-582d-402f-9ad9-fdeeb2355c4f}</Project>
       <Name>TechLibrary.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
