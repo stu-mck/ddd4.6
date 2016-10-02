@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TechLibrary.Domain.Aggregagtes;
 using TechLibrary.Domain.Values;
 using TechLibrary.Interfaces;
 
-namespace TechLibrary.Domain.Entitites
+namespace TechLibrary.Domain.Entities
 {
     public class Engine : IEntity, IIndexable
     {

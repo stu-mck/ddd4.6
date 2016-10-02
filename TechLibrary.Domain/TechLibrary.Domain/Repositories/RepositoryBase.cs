@@ -11,9 +11,7 @@ namespace TechLibrary.Domain.Repositories
 
         public T GetByID(Guid id)
         {
-            if (_mockStore.ContainsKey(id))
-                return _mockStore[id];
-            return default(T);
+            return _mockStore.ContainsKey(id) ? _mockStore[id] : default(T);
         }
 
         public void Save(T entity)

@@ -1,7 +1,7 @@
 ﻿using System;
 using TechLibrary.Interfaces;
 
-namespace TechLibrary.Domain.Entitites
+namespace TechLibrary.Domain.Entities
 {
     public class Series : IEntity, IIndexable
     {

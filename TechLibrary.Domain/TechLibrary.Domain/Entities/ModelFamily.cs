@@ -1,19 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TechLibrary.Domain.Aggregagtes;
 using TechLibrary.Interfaces;
 
-namespace TechLibrary.Domain.Entitites
+namespace TechLibrary.Domain.Entities
 {
     public class ModelFamily : IEntity, IIndexable
     {
         public ModelFamily()
         {
             ID = Guid.NewGuid();
-            Series = new List<Entitites.Series>();
+            Series = new List<Series>();
         }
 
         public string Name { get; set; }
