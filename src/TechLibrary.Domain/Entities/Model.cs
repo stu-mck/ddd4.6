@@ -5,9 +5,9 @@ using TechLibrary.Interfaces;
 
 namespace TechLibrary.Domain.Entities
 {
-    public class ModelFamily : IEntity, IIndexable
+    public class Model : IEntity, IIndexable
     {
-        public ModelFamily()
+        public Model()
         {
             ID = Guid.NewGuid();
             Series = new List<Series>();
@@ -19,7 +19,7 @@ namespace TechLibrary.Domain.Entities
 
         public List<Series> Series { get; set; }
 
-        public Manufacturer Manufacturer { get; set; }
+        public Make Make { get; set; }
 
         public Series AddSeries(string name, int yearFrom, int yearTo)
         {

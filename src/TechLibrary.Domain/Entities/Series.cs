@@ -14,6 +14,6 @@ namespace TechLibrary.Domain.Entities
         public string Name { get; set; }
         public int YearFrom { get; set; }
         public int YearTo { get; set; }
-        public ModelFamily ModelFamily { get; set; }
+        public Model Model { get; set; }
     }
 }

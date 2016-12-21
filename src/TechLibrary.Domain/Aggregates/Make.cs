@@ -6,24 +6,24 @@ using TechLibrary.Interfaces;
 
 namespace TechLibrary.Domain.Aggregagtes
 {
-    public  class Manufacturer : IEntity, IIndexable
+    public  class Make : IEntity, IIndexable
     {
 
-        public Manufacturer()
+        public Make()
         {
             ID = Guid.NewGuid();
-            ModelFamilies = new List<ModelFamily>();
+            ModelFamilies = new List<Model>();
         }
 
         public Guid ID { get; private set; }
 
         public string Name { get; set; }
 
-        public List<ModelFamily> ModelFamilies { get; set; }
+        public List<Model> ModelFamilies { get; set; }
 
 
 
-        public List<ModelFamily> GetModelFamilyByName(string name)
+        public List<Model> GetModelFamilyByName(string name)
         {
             return ModelFamilies.Where(mf => mf.Name == name).ToList();
         }
@@ -42,9 +42,9 @@ namespace TechLibrary.Domain.Aggregagtes
 
 
 
-        public ModelFamily AddModel(string modelName)
+        public Model AddModel(string modelName)
         {
-            var mf = new ModelFamily()
+            var mf = new Model()
             {
                 Name = modelName
             };
@@ -61,7 +61,7 @@ namespace TechLibrary.Domain.Aggregagtes
             return modelFamily.AddSeries(name, yearFrom, yearTo);
         }
 
-        public ModelFamily GetModelFamilyByID(Guid id)
+        public Model GetModelFamilyByID(Guid id)
         {
             return ModelFamilies.First(mf => mf.ID == id);
         }

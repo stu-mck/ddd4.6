@@ -10,6 +10,9 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+#resharper
+.idea/
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -241,3 +244,4 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+.idea/.idea.TechLibrary/.idea/.name

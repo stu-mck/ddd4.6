@@ -44,8 +44,8 @@
     <Compile Include="Aggregates\ContentElement.cs" />
     <Compile Include="Aggregates\ContentIndex.cs" />
     <Compile Include="Entities\Engine.cs" />
-    <Compile Include="Aggregates\Manufacturer.cs" />
-    <Compile Include="Entities\ModelFamily.cs" />
+    <Compile Include="Aggregates\Make.cs" />
+    <Compile Include="Entities\Model.cs" />
     <Compile Include="Entities\Series.cs" />
     <Compile Include="Entities\Transmission.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

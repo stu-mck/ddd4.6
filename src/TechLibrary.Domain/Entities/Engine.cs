@@ -13,7 +13,7 @@ namespace TechLibrary.Domain.Entities
         }
         public Guid ID { get; private set; }
 
-        public Manufacturer Manufacturer { get; set; }
+        public Make Make { get; set; }
 
         public int Capacity { get; set; }
 
